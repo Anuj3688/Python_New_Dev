@@ -6,3 +6,5 @@ ans = requests.get("https://api.freeapi.app/api/v1/public/randomjokes/joke/rando
 data = ans.json()
 if data['success']:
     print(data)
+
+# The work here is to check Api
